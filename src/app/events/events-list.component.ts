@@ -22,7 +22,7 @@ import {Component} from '@angular/core';
   `
 })
 export class EventsListComponent {
-  event: {
+  event = {
     id: 1,
     name: 'Angular Connect',
     date: '9/26/2036',
